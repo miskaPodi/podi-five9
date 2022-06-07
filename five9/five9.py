@@ -17,9 +17,9 @@ from .environment import Environment
 
 class Five9(object):
 
-    WSDL_CONFIGURATION = 'https://api.five9.com/wsadmin/v9_5/' \
+    WSDL_CONFIGURATION = 'https://api.five9.com/wsadmin/v12/' \
                          'AdminWebService?wsdl&user=%s'
-    WSDL_SUPERVISOR = 'https://api.five9.com/wssupervisor/v9_5/' \
+    WSDL_SUPERVISOR = 'https://api.five9.com/wssupervisor/v12/' \
                       'SupervisorWebService?wsdl&user=%s'
 
     # These attributes are used to create the supervisor session.

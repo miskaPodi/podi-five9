@@ -15,7 +15,7 @@ except ImportError:
 from .environment import Environment
 
 
-class Five9(object):
+class Five9Podi(object):
 
     WSDL_CONFIGURATION = 'https://api.five9.com/wsadmin/v12/' \
                          'AdminWebService?wsdl&user=%s'
